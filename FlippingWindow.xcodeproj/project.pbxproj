@@ -13,6 +13,7 @@
 		587F004D19EADCC10047C70A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587F004C19EADCC10047C70A /* Images.xcassets */; };
 		587F005019EADCC20047C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F004E19EADCC20047C70A /* Main.storyboard */; };
 		587F005C19EADCC20047C70A /* FlippingWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F005B19EADCC20047C70A /* FlippingWindowTests.m */; };
+		587F006719EADCED0047C70A /* mbFlipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F006619EADCED0047C70A /* mbFlipWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		587F005519EADCC20047C70A /* FlippingWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippingWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587F005A19EADCC20047C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587F005B19EADCC20047C70A /* FlippingWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippingWindowTests.m; sourceTree = "<group>"; };
+		587F006519EADCED0047C70A /* mbFlipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbFlipWindow.h; sourceTree = "<group>"; };
+		587F006619EADCED0047C70A /* mbFlipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mbFlipWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				587F004C19EADCC10047C70A /* Images.xcassets */,
 				587F004E19EADCC20047C70A /* Main.storyboard */,
 				587F004219EADCC10047C70A /* Supporting Files */,
+				587F006519EADCED0047C70A /* mbFlipWindow.h */,
+				587F006619EADCED0047C70A /* mbFlipWindow.m */,
 			);
 			path = FlippingWindow;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				587F004819EADCC10047C70A /* ViewController.m in Sources */,
 				587F004519EADCC10047C70A /* main.m in Sources */,
 				587F004B19EADCC10047C70A /* AppDelegate.m in Sources */,
+				587F006719EADCED0047C70A /* mbFlipWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
