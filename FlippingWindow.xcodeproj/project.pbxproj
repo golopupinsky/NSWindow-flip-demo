@@ -12,19 +12,8 @@
 		587F004B19EADCC10047C70A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F004A19EADCC10047C70A /* AppDelegate.m */; };
 		587F004D19EADCC10047C70A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587F004C19EADCC10047C70A /* Images.xcassets */; };
 		587F005019EADCC20047C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F004E19EADCC20047C70A /* Main.storyboard */; };
-		587F005C19EADCC20047C70A /* FlippingWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F005B19EADCC20047C70A /* FlippingWindowTests.m */; };
 		587F006719EADCED0047C70A /* mbFlipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F006619EADCED0047C70A /* mbFlipWindow.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		587F005619EADCC20047C70A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 587F003719EADCC10047C70A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587F003E19EADCC10047C70A;
-			remoteInfo = FlippingWindow;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		587F003F19EADCC10047C70A /* FlippingWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippingWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,22 +25,12 @@
 		587F004A19EADCC10047C70A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		587F004C19EADCC10047C70A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		587F004F19EADCC20047C70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		587F005519EADCC20047C70A /* FlippingWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippingWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		587F005A19EADCC20047C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		587F005B19EADCC20047C70A /* FlippingWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippingWindowTests.m; sourceTree = "<group>"; };
 		587F006519EADCED0047C70A /* mbFlipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbFlipWindow.h; sourceTree = "<group>"; };
 		587F006619EADCED0047C70A /* mbFlipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mbFlipWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		587F003C19EADCC10047C70A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587F005219EADCC20047C70A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				587F004119EADCC10047C70A /* FlippingWindow */,
-				587F005819EADCC20047C70A /* FlippingWindowTests */,
 				587F004019EADCC10047C70A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				587F003F19EADCC10047C70A /* FlippingWindow.app */,
-				587F005519EADCC20047C70A /* FlippingWindowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,23 +81,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		587F005819EADCC20047C70A /* FlippingWindowTests */ = {
-			isa = PBXGroup;
-			children = (
-				587F005B19EADCC20047C70A /* FlippingWindowTests.m */,
-				587F005919EADCC20047C70A /* Supporting Files */,
-			);
-			path = FlippingWindowTests;
-			sourceTree = "<group>";
-		};
-		587F005919EADCC20047C70A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				587F005A19EADCC20047C70A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,24 +101,6 @@
 			productReference = 587F003F19EADCC10047C70A /* FlippingWindow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		587F005419EADCC20047C70A /* FlippingWindowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 587F006219EADCC20047C70A /* Build configuration list for PBXNativeTarget "FlippingWindowTests" */;
-			buildPhases = (
-				587F005119EADCC20047C70A /* Sources */,
-				587F005219EADCC20047C70A /* Frameworks */,
-				587F005319EADCC20047C70A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				587F005719EADCC20047C70A /* PBXTargetDependency */,
-			);
-			name = FlippingWindowTests;
-			productName = FlippingWindowTests;
-			productReference = 587F005519EADCC20047C70A /* FlippingWindowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,10 +112,6 @@
 				TargetAttributes = {
 					587F003E19EADCC10047C70A = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					587F005419EADCC20047C70A = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 587F003E19EADCC10047C70A;
 					};
 				};
 			};
@@ -191,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				587F003E19EADCC10047C70A /* FlippingWindow */,
-				587F005419EADCC20047C70A /* FlippingWindowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,13 +140,6 @@
 			files = (
 				587F004D19EADCC10047C70A /* Images.xcassets in Resources */,
 				587F005019EADCC20047C70A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587F005319EADCC20047C70A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587F005119EADCC20047C70A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				587F005C19EADCC20047C70A /* FlippingWindowTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		587F005719EADCC20047C70A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 587F003E19EADCC10047C70A /* FlippingWindow */;
-			targetProxy = 587F005619EADCC20047C70A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		587F004E19EADCC20047C70A /* Main.storyboard */ = {
@@ -355,42 +269,6 @@
 			};
 			name = Release;
 		};
-		587F006319EADCC20047C70A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FlippingWindowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlippingWindow.app/Contents/MacOS/FlippingWindow";
-			};
-			name = Debug;
-		};
-		587F006419EADCC20047C70A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FlippingWindowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlippingWindow.app/Contents/MacOS/FlippingWindow";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +288,7 @@
 				587F006119EADCC20047C70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		587F006219EADCC20047C70A /* Build configuration list for PBXNativeTarget "FlippingWindowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				587F006319EADCC20047C70A /* Debug */,
-				587F006419EADCC20047C70A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
