@@ -3,12 +3,13 @@ NSWindow-flip-demo
 
 A quick test of OS X window flipping effect
 
-*(code is not mine, found it on the web and made this demo)*
+*Found this code on the web. <u>It is not mine.</u> (Also it's pretty dirty.)*
+
+Gif of my app (<b>not this demo</b>) that uses same approach:
+![](out.gif)
 
 TODO:
 ----------
 
-* fix blinking
-* fix fuzzyness
-* tidy
+* tidy/refactor
 
